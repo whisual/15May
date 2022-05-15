@@ -1,0 +1,163 @@
+.name {
+    color: grey;
+    background-color: black;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+/* --------Navbar Region------------- */
+.navbar1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    margin-right: 11%;
+}
+
+.nav-link {
+    font-weight: 600;
+    margin-left: 30px;
+    color: grey;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+
+/* ----------Intro region---------------- */
+
+.introhead {
+    display: flex;
+    flex-direction: row;
+}
+
+.intromain {
+    margin-left: 30px;
+}
+
+.btn1 {
+    text-decoration: none;
+    color: black;
+    background-color: grey;
+    size: 500px;
+    border-radius: 20px;
+
+}
+
+/* ------------About us section---------- */
+.abouthead {
+    text-align: center;
+}
+
+.abouthead:hover {
+    color: grey;
+}
+
+.aboutpara {
+    text-align: center;
+}
+
+/* ----------Skill Section-------- */
+
+.skillshead {
+    text-align: center;
+}
+
+.skillshead:hover {
+    color: grey;
+    text-align: center;
+}
+
+.skillslist {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ----------Work Section-------- */
+.workhead {
+    text-align: center;
+}
+
+.workhead:hover {
+    color: grey;
+    text-align: center;
+}
+
+.workimages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.workimage {
+    border-radius: 10px;
+}
+
+/* ------------------Contact Section-------------- */
+.contacthead {
+    text-align: center;
+}
+
+.contacthead:hover {
+    color: grey;
+    text-align: center;
+
+}
+
+.contactbuttons {
+    text-align: center;
+    font-weight: 1000px;
+}
+
+
+/* ----------------Footer Section--------------- */
+.end {
+    background-color: black;
+    border-radius: 20px;
+}
+
+.endname {
+    color: grey;
+    text-align: center;
+}
+
+/* / Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .container {
+        background-color: cornsilk;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .container {
+        background-color: steelblue;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .container {
+        background-color: cornsilk;
+    }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .container {
+        background-color: steelblue;
+    }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .container {
+        background-color: cornsilk;
+    }
+}
